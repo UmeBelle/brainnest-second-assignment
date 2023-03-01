@@ -8,14 +8,17 @@
 	/* fonts */
 	--main-text-color: #f9faf8; /* hero main text, header logo text*/
 }
+@font-face {
+	font-family: 'Roboto-regular';
+	src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
 
 * {
 	margin: 0;
 }
 
-@font-face {
-	font-family: 'Roboto-regular';
-	src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+body {
+	font-family: 'Roboto-regular', sans-serif;
 }
 
 h1 {
