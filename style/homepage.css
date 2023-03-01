@@ -1,0 +1,77 @@
+/* General styles */
+:root {
+	/* colors */
+	--main-blue-color: #1f2937; /*hero and footer background*/
+	--secondary-color: #e5e7eb; /* quote section background color, hero secondary text, header link text */
+	--button-color: #3882f6;
+
+	/* fonts */
+	--main-text-color: #f9faf8; /* hero main text, header logo text*/
+}
+
+* {
+	margin: 0;
+}
+
+@font-face {
+	font-family: 'Roboto-regular';
+	src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+h1 {
+	font-family: 'Roboto-regular', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* NAV */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 150px 0 150px;
+	background-color: var(--main-blue-color);
+}
+
+nav h3 {
+	margin: 0;
+	color: var(--main-text-color);
+	font-size: 24px;
+}
+
+nav a {
+	color: var(--secondary-color);
+	font-size: 18px;
+	padding: 25px;
+}
+
+/* HEADER */
+header {
+	background-color: var(--main-blue-color);
+	display: flex;
+	justify-content: center;
+	padding: 100px 100px;
+}
+
+header p {
+	color: var(--main-text-color);
+	/* font-size: 36px; */
+	/* font-weight: 900; */
+}
+
+header div h1 {
+	font-size: 48px;
+	font-weight: 900;
+	color: var(--main-text-color);
+}
+
+header button {
+	background-color: var(--button-color);
+	border-radius: 7px;
+	padding: 9px 20px;
+	margin-top: 5px;
+	color: var(--main-text-color);
+	font-weight: bold;
+}
