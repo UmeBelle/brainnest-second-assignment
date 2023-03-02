@@ -24,9 +24,10 @@ body {
 h1 {
 	font-family: 'Roboto-regular', sans-serif;
 }
-
-a {
-	text-decoration: none;
+header{
+	background-color: var(--main-blue-color);
+	padding: 5px 10%;
+	min-height: 80vh;
 }
 
 /* NAV */
@@ -34,50 +35,64 @@ a {
 nav {
 	display: flex;
 	justify-content: space-between;
-	padding: 20px 150px 0 150px;
 	background-color: var(--main-blue-color);
+	width: 100%;
 }
 
-nav h3 {
-	margin: 0;
-	color: var(--main-text-color);
-	font-size: 24px;
+.left-nav{
+	padding-top: 20px;
+	flex: 1;
 }
+.left-nav img{
+	width:20vb ;
+	border-radius: 113px 8px 91px 8px;
+-moz-border-radius: 113px 8px 91px 8px;
+-webkit-border-radius: 113px 8px 91px 8px;
+}
+.right-nav{
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+}
+
 
 nav a {
+	text-decoration: none;
 	color: var(--secondary-color);
 	font-size: 18px;
 	padding: 25px;
 }
 
-/* HEADER */
-header {
-	background-color: var(--main-blue-color);
+.cont{
 	display: flex;
-	justify-content: center;
-	padding: 100px 100px;
+	padding-top: 30px;
+	flex-wrap: wrap;
 }
 
-header p {
-	color: var(--main-text-color);
-	/* font-size: 36px; */
-	/* font-weight: 900; */
+.cont div{
+	flex: 1;
+	padding-top: 50px;
 }
 
-header div h1 {
-	font-size: 48px;
-	font-weight: 900;
+.cont div h1{
+	font: 48px bold;
 	color: var(--main-text-color);
 }
-
-header button {
+.cont p{
+	color: var(--secondary-color);
+}
+button{
+	color: var(--secondary-color);
 	background-color: var(--button-color);
-	border-radius: 7px;
-	padding: 9px 20px;
 	margin-top: 5px;
-	color: var(--main-text-color);
-	font-weight: bold;
+	padding: 4px 15px;
+	border: 1px solid white;
+	border-radius: 5px ;
+	cursor: pointer;
 }
+/* HEADER */
+
+
 
 /* First Section - 4 images-texts */
 
@@ -115,10 +130,32 @@ header button {
 	text-align: center;
 	margin: 0 auto;
 }
+article{
+	background-color: var(--secondary-color);
+	max-height: 200px;
+	padding:50px 100px;
+	margin: 5vh;
+	border-radius:6px;
+	
+}
+.second-section{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background-color: var(--button-color);
+	padding: 50px 70px ;
+	margin: 5vh;
+	border-radius:6px;
+}
+.sign-up{
+	margin-left: 30px;
+}
 
 footer {
 	background-color: var(--main-blue-color);
 	padding: 30px 0;
+	margin-bottom: 5px;
 }
 
 footer p {
