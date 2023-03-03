@@ -37,6 +37,8 @@ nav {
 	justify-content: space-between;
 	background-color: var(--main-blue-color);
 	width: 100%;
+	position: sticky;
+	top: 0px;
 }
 
 .left-nav{
@@ -157,6 +159,7 @@ footer p {
 	color: var(--secondary-color);
 	text-align: center;
 }
+/* responsiveness */
 @media (max-width:770px) {
 	.cont{
 		display: flex;
