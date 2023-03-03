@@ -105,9 +105,11 @@ header button {
 	font-weight: bold;
 }
 /*------------------- About Section-----------------------------------------*/
-.about-main-section {
+
+/* .about-main-section {
 	padding: 3% 20%;
-}
+} */
+
 .about-main-section1 {
 	padding: 0;
 	margin-bottom: 20px;
@@ -192,6 +194,17 @@ footer {
 	text-decoration: none;
 	font-size: 18px;
 	color: #8c3838;
+}
+
+/* Last Img */
+
+.about-main-section3 {
+	background-image: url('https://picsum.photos/seed/picsum/800/300');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	width: 100%;
 }
 
 /*----------------------------footer---------------------------------------------------*/
