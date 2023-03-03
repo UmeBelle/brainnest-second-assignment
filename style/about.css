@@ -60,8 +60,6 @@ header {
 
 header p {
 	color: var(--main-text-color);
-	/* font-size: 36px; */
-	/* font-weight: 900; */
 }
 
 header div h1 {
@@ -78,5 +76,3 @@ header button {
 	color: var(--main-text-color);
 	font-weight: bold;
 }
-
-
