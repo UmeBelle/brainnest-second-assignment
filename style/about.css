@@ -60,8 +60,6 @@ header {
 
 header p {
 	color: var(--main-text-color);
-	/* font-size: 36px; */
-	/* font-weight: 900; */
 }
 
 header div h1 {
@@ -79,63 +77,54 @@ header button {
 	font-weight: bold;
 }
 /*------------------- About Section-----------------------------------------*/
-.about-main-section
-{
-    padding: 3% 20%;
+.about-main-section {
+	padding: 3% 20%;
 }
-.about-main-section1
-{
-    padding: 0;
-    margin-bottom: 20px;
+.about-main-section1 {
+	padding: 0;
+	margin-bottom: 20px;
 }
-.about-main-section1 h1, .about-main-section1 article,
-.about-main-section2 article 
-{
-    margin: 0;
+.about-main-section1 h1,
+.about-main-section1 article,
+.about-main-section2 article {
+	margin: 0;
 }
-.about-main-section2
-{
-    padding: 0;
-    margin-bottom: 20px;
+.about-main-section2 {
+	padding: 0;
+	margin-bottom: 20px;
 }
 
-.about-main-section2 h1, .about-main-section1 h1
-{
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 10px;
+.about-main-section2 h1,
+.about-main-section1 h1 {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 10px;
 }
 
-.about-main-section2 article p, .about-main-section1 article p
-{
-    font-size: 18px;
-    line-height: 20px;
+.about-main-section2 article p,
+.about-main-section1 article p {
+	font-size: 18px;
+	line-height: 20px;
 }
 
-.about-main-section3
-{
-    padding: 0;
-    text-align: center;
+.about-main-section3 {
+	padding: 0;
+	text-align: center;
 }
 
-.about-main-section3 a
-{
-    text-decoration: none;
-    font-size: 18px;
-    color: #8c3838;
+.about-main-section3 a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #8c3838;
 }
 
-footer
-{
-    padding: 1% 30%;
-    text-align: center;
+footer {
+	padding: 1% 30%;
+	text-align: center;
 	background-color: var(--main-blue-color);
 }
 
-footer p
-{
-    color: var(--secondary-color);
-    font-size: 18px;
+footer p {
+	color: var(--secondary-color);
+	font-size: 18px;
 }
-
-
