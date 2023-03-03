@@ -34,20 +34,55 @@ a {
 nav {
 	display: flex;
 	justify-content: space-between;
-	padding: 20px 150px 0 150px;
 	background-color: var(--main-blue-color);
+	width: 100%;
+	position: sticky;
+	top: 0px;
 }
 
-nav h3 {
-	margin: 0;
-	color: var(--main-text-color);
-	font-size: 24px;
+.left-nav {
+	padding-top: 20px;
+	flex: 1;
+}
+.left-nav img {
+	width: 20vb;
+	border-radius: 113px 8px 91px 8px;
+	-moz-border-radius: 113px 8px 91px 8px;
+	-webkit-border-radius: 113px 8px 91px 8px;
+}
+.right-nav {
+	flex: 1;
+	margin-top: 30px;
+}
+ul {
+	display: flex;
+	justify-content: end;
+}
+
+li {
+	list-style: none;
 }
 
 nav a {
+	text-decoration: none;
 	color: var(--secondary-color);
 	font-size: 18px;
-	padding: 25px;
+	margin: 30px;
+}
+
+/* 
+.left-nav img {
+	width: 15vb;
+}
+.right-nav {
+	margin-top: 10px;
+	margin-left: 60px;
+} */
+ul {
+	flex-direction: column;
+}
+li {
+	margin: 5px;
 }
 
 /* HEADER */
@@ -123,8 +158,68 @@ footer {
 	text-align: center;
 	background-color: var(--main-blue-color);
 }
+.about-main-section {
+	padding: 3% 20%;
+}
 
-footer p {
-	color: var(--secondary-color);
+.about-main-section1 {
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.about-main-section1 h1,
+.about-main-section1 article,
+.about-main-section2 article {
+	margin: 0;
+}
+.about-main-section2 {
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.about-main-section2 h1,
+.about-main-section1 h1 {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.about-main-section2 article p,
+.about-main-section1 article p {
 	font-size: 18px;
+	line-height: 20px;
+}
+
+.about-main-section3 {
+	padding: 0;
+	text-align: center;
+}
+
+.about-main-section3 a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #8c3838;
+}
+
+/*----------------------------footer---------------------------------------------------*/
+footer {
+	background: #1f2937;
+	padding: 1% 30%;
+	text-align: center;
+}
+
+@media (max-width: 770px) {
+	.left-nav img {
+		width: 15vb;
+	}
+	.right-nav {
+		margin-top: 10px;
+		margin-left: 60px;
+	}
+	ul {
+		flex-direction: column;
+	}
+	li {
+		margin: 5px;
+	}
 }
