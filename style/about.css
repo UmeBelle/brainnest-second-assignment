@@ -51,6 +51,7 @@ nav a {
 }
 
 /* HEADER */
+/*
 header {
 	background-color: var(--main-blue-color);
 	display: flex;
@@ -78,6 +79,7 @@ header button {
 	color: var(--main-text-color);
 	font-weight: bold;
 }
+<<<<<<< Updated upstream
 
 .about-main-section{
 	padding: 3% 20%;
@@ -133,10 +135,127 @@ footer
 	background: #1f2937;
     padding: 1% 30%;
     text-align: center;
+=======
+*/
+/* Added Imani's header section to cover the background image */
+header
+{
+	height: 400px;
+	width: 100%;
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210902/pngtree-the-background-photography-of-the-empty-library-bookstore-indoors-image_785539.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*-------------------end of my header section-----------------------------*/
+
+/*------------------- About Section-----------------------------------------*/
+.about-main-section
+{
+	padding: 3% 20%;
+} 
+
+.about-main-section1 {
+	margin-bottom: 20px;
+}
+
+.about-main-section1 h1,
+.about-main-section1 article,
+.about-main-section2 article,
+.about-main-section,
+.about-main-section2, .about-main-section3 a 
+{
+	margin: 0;
+}
+
+.about-main-section2, .about-main-section1,
+.about-main-section3 
+{
+	padding: 0;
+}
+
+.about-main-section2 h1,
+.about-main-section1 h1 
+{	
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.about-main-section2 article p,
+.about-main-section1 article p 
+{
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.about-main-section3 
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.about-main-section2 h1,
+.about-main-section1 h1,
+.about-main-section3 
+{
+	text-align: center;
+}
+
+.about-main-section3 a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #8c3838;
+}
+
+.background-image-class
+{
+	height: 400px;
+	width: 100%;
+	background-image: url("https://wallpaperaccess.com/full/253332.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*----------------------------end of about section------------------------------------*/
+
+/*----------------------------footer---------------------------------------------------*/
+footer 
+{
+	background: --main-blue-color;
+	padding: 1% 30%;
+	text-align: center;
+>>>>>>> Stashed changes
 }
 
 footer p
 {
+<<<<<<< Updated upstream
     color: #E5E7EB;
     font-size: 18px;
+=======
+	font-size: 18px;
+	color: --main-text-color;
+}
+/*-------------------------------end of footer---------------------------------------------------------*/
+
+@media (max-width: 770px) {
+	.left-nav img {
+		width: 15vb;
+	}
+	.right-nav {
+		margin-top: 10px;
+		margin-left: 60px;
+	}
+	nav ul {
+		flex-direction: column;
+	}
+	nav li {
+		margin: 5px;
+	}
+	.about-main-section2 article p,
+	.about-main-section1 article p
+	{
+		text-align: center;
+	} 
+>>>>>>> Stashed changes
 }
