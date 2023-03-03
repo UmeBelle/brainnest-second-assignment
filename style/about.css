@@ -54,12 +54,12 @@ nav {
 	flex: 1;
 	margin-top: 30px;
 }
-ul {
+nav ul {
 	display: flex;
 	justify-content: end;
 }
 
-li {
+nav li {
 	list-style: none;
 }
 
@@ -70,19 +70,12 @@ nav a {
 	margin: 30px;
 }
 
-/* 
 .left-nav img {
 	width: 15vb;
 }
 .right-nav {
 	margin-top: 10px;
 	margin-left: 60px;
-} */
-ul {
-	flex-direction: column;
-}
-li {
-	margin: 5px;
 }
 
 /* HEADER */
@@ -216,10 +209,10 @@ footer {
 		margin-top: 10px;
 		margin-left: 60px;
 	}
-	ul {
+	nav ul {
 		flex-direction: column;
 	}
-	li {
+	nav li {
 		margin: 5px;
 	}
 }
