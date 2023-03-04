@@ -20,6 +20,13 @@
 
 body {
 	margin: 0;
+	font-family: 'Roboto-regular', sans-serif;
+}
+
+header {
+	background-color: var(--main-blue-color);
+	padding: 5px 10%;
+	/* min-height: 80vh; */
 }
 
 /* NAV */
@@ -27,6 +34,7 @@ body {
 nav {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	background-color: var(--main-blue-color);
 	width: 100%;
 	position: sticky;

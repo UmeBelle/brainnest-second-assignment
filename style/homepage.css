@@ -46,6 +46,7 @@ header {
 nav {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	background-color: var(--main-blue-color);
 	width: 100%;
 	position: sticky;
@@ -163,6 +164,13 @@ article {
 	border-radius: 6px;
 	color: var(--main-blue-color);
 	margin: 100px 0;
+	transition: all ease-in-out 1s;
+}
+
+article:hover {
+	background-color: var(--main-blue-color);
+	transition-duration: 0.5s;
+	color: var(--main-text-color);
 }
 
 .quote {
@@ -176,6 +184,8 @@ article div span {
 	text-align: right;
 	margin-top: 10px;
 }
+
+/* SECOND SECTION */
 
 .second-section {
 	display: flex;
@@ -251,6 +261,15 @@ footer p {
 
 	.subscribe {
 		margin: 0;
+		transition: all ease-in-out 1s;
+	}
+
+	.subscribe:hover {
+		transition-duration: 0.5s;
+		transform: scale(1.5);
+		color: var(--main-blue-color);
+		background-color: var(--main-text-color);
+		font-family: "Roboto-bold", sans-serif;
 	}
 
 	.second-section {
@@ -258,3 +277,8 @@ footer p {
 		margin: 100px auto;
 	}
 }
+
+/* 
+
+
+
