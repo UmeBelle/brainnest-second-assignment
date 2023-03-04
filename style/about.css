@@ -24,11 +24,6 @@ body {
 	font-family: 'Roboto-regular', sans-serif;
 }
 
-header {
-	background-color: var(--main-blue-color);
-	padding: 5px 10%;
-}
-
 h1 {
 	font-family: 'Roboto-regular', sans-serif;
 }
@@ -44,9 +39,10 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	background-color: var(--main-blue-color);
-	width: 100%;
+	width: 80%;
 	position: sticky;
 	top: 0px;
+	padding: 5px 10%;
 }
 
 .left-nav {
@@ -61,7 +57,6 @@ nav {
 }
 .right-nav {
 	flex: 1;
-	margin-top: 30px;
 }
 ul {
 	display: flex;
