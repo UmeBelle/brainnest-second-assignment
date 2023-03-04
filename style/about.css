@@ -74,6 +74,51 @@ nav a {
 	margin: 30px;
 }
 
+/* HEADER */
+/*
+header {
+	background-color: var(--main-blue-color);
+	display: flex;
+	justify-content: center;
+	padding: 100px 100px;
+}
+*/
+/*
+header p {
+	color: var(--main-text-color);
+	 font-size: 36px; 
+	 font-weight: 900; 
+*/
+
+/*
+header div h1 {
+	font-size: 48px;
+	font-weight: 900;
+	color: var(--main-text-color);
+}
+
+header button {
+	background-color: var(--button-color);
+	border-radius: 7px;
+	padding: 9px 20px;
+	margin-top: 5px;
+	color: var(--main-text-color);
+	font-weight: bold;
+}
+*/
+
+/* Added Imani's header section to cover the background image */
+header
+{
+	height: 400px;
+	width: 100%;
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210902/pngtree-the-background-photography-of-the-empty-library-bookstore-indoors-image_785539.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*-------------------end of my header section-----------------------------*/
+
 /*------------------- About Section-----------------------------------------*/
 
 main {
@@ -116,18 +161,29 @@ h1 {
 	
 }
 
-footer {
-	padding: 1% 30%;
-	text-align: center;
-	background-color: var(--main-blue-color);
+.background-image-class
+{
+	height: 400px;
+	width: 100%;
+	background-image: url("https://wallpaperaccess.com/full/253332.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
+/*----------------------------end of about section------------------------------------*/
 
 /*----------------------------footer---------------------------------------------------*/
-footer {
+footer 
+{
 	background: #1f2937;
 	padding: 1% 30%;
 	text-align: center;
-	color: var(--main-text-color);
+}
+
+footer p
+{
+	font-size: 18px;
+	color: #f9faf8;
 }
 
 @media (max-width: 770px) {
@@ -144,4 +200,9 @@ footer {
 	nav li {
 		margin: 5px;
 	}
+	.about-main-section2 article p,
+	.about-main-section1 article p
+	{
+		text-align: center;
+	} 
 }
