@@ -121,7 +121,7 @@ header
 
 /*------------------- About Section-----------------------------------------*/
 
-main {
+.about-main-section {
 	padding: 3% 0;
 	background-color: var(--secondary-color);
 	border-radius: 10px;
@@ -159,6 +159,13 @@ h1 {
 	color: var(--main-text-color);
 	text-decoration: none;
 	
+}
+
+.about-main-section3
+{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .background-image-class
